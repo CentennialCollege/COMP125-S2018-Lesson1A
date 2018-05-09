@@ -5,9 +5,13 @@
 (function(){
 
     function Start() {
+        // local variable
+        var title = document.title;
+
+
         console.log("App Started!");
         console.log("----------------------------");
-        console.log("Hello, World!");
+        console.log("Title: " + title);
     }
 
     window.onload = Start;
